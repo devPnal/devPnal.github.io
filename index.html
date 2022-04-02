@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Temp Title</title>
+    <script src="script/marked.js"></script>
+    <script src="script/loadHTML.js"></script>
+</head>
+<body>
+	<header>
+	</header>
+	<nav>
+	</nav>
+	<article>
+        <script>
+            loadHTML("README.md", data=>document.write(marked.parse(data)));
+        </script>
+	</article>
+	<footer>
+	</footer>
+	
+	
+</body>
+</html>
