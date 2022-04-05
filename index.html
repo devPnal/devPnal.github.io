@@ -3,18 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<title>Temp Title</title>
-    <script src="script/marked.js"></script>
-    <script src="script/loadHTML.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script/marked.js"></script>
+	<script src="script/loadHTML.js"></script>
 </head>
 <body>
-	<header>
+	<header class='site-header'>
+		<nav class='header-wrap'>
+			<h1 class='site-title'><a href='/'>Pnal</a></h1>
+			<div class='nav-wrap'>
+				<ul class='site-nav'>
+					<li><a href='#'>연락처</a></li>
+					<li>|</li>
+					<li><a href='#'>개발 철학/신념</a></li>
+					<li><a href='#'>연구 및 프로젝트</a></li>
+					<li class='outlink'><a href='#'>GitHub</a></li>
+					<li class='outlink'><a href='#'>Blog</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
-	<nav>
-	</nav>
-	<article>
-        <script>
-            loadHTML("README.md", data=>document.write(marked.parse(data)));
-        </script>
+	<article class='article-wrap'>
+		<div class='main-slogan'>
+			<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit</p>
+		</div>
+		<div class='main-image'>
+			<p><-이거 샘플용 텍스트임<br><br><br>[이미지 들어갈 곳]<br></p>
+		</div>
 	</article>
 	<footer>
 	</footer>
