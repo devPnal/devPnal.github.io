@@ -5,70 +5,16 @@ html, body {
   padding: 0;
   background: #fdfdfd;
   height: 100%;
-  font-family: "Malgun Gothic","맑은 고딕","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", Arial, sans-serif;
-}
-header,body,div,nav,ul,li,h1 { margin:0; padding:0; }
-a { text-decoration:none; color:#333; display:block; }
-
-.site-header {
-  background: #fcfcfc;
-  height: 70px;
-  margin: 0px;
-  box-shadow: 0 4px 4px -4px #ccc;
 }
 
-.header-wrap {
-  width: 1080px;
-  height: 70px;
-  margin: 0 auto;
-}
 
-.site-title {
-  line-height: 70px;
-  margin: 0px 70px 0px 10px;
-  color: #fff;
-  float: left;
-}
-
-.nav-wrap {
-  height: 70px;
-  float: left;
-}
-
-.site-nav {
-  list-style: none;
-}
-
-.site-nav li {
-  padding: 0 20px;
-  height: 70px;
-  line-height: 70px;
+article {
+  position: absolute;
+  top: Calc(50% - 360px);
+  left: Calc(50% - 360px);
   text-align: center;
-  float: left;
-}
-
-.article-wrap {
-  width: 1080px;
+  width: 720px;
+  height: 720px;
   margin: 0 auto;
-  height: 700px;
-  padding: 70px 10px;
+  padding: 20px;
 }
-
-.main-slogan {
-  float: left;
-}
-
-.main-slogan p {
-  width: 490px;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.main-image {
-  width: 490px;
-  height: 490px;
-  background: #ccc;
-  float: left;
-  margin-left: 70px;
-}
-
