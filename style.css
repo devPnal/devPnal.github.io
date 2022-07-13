@@ -7,14 +7,13 @@ html, body {
   height: 100%;
 }
 
-
 article {
-  position: absolute;
-  top: Calc(50% - 360px);
-  left: Calc(50% - 360px);
-  text-align: center;
-  width: 720px;
-  height: 720px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.description {
   margin: 0 auto;
-  padding: 20px;
+  text-align: center;
 }
