@@ -4,12 +4,10 @@ html, body {
   margin: 0;
   padding: 0;
   background: #fdfdfd;
-  height: 100%;
 }
 
 article {
   display: flex;
-  height: 100%;
   align-items: center;
 }
 
@@ -26,5 +24,6 @@ article {
 @media screen and (max-width: 800px) {
   .warning {
     max-width: Calc(100% - 20px);
+    margin: 0 auto;
   }
 }
