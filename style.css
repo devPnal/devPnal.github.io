@@ -17,3 +17,14 @@ article {
   margin: 0 auto;
   text-align: center;
 }
+
+.warning {
+  max-width: 720px;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .warning {
+    max-width: Calc(100% - 20px);
+  }
+}
